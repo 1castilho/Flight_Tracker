@@ -4,8 +4,6 @@ from flight_data import FlightData
 from notification import Notification
 
 # TODO: switch from SMS to mail
-# TODO: create a session for vacation trips with 10 to 25 days duration
-# TODO: add description to all modules
 
 SPREADSHEET_ID = "1Pn0BXe6OyFZNaASoDrxmw4AemzA9SSZCFRf-cMULIes"
 WEEKDAY = {
@@ -71,4 +69,3 @@ def get_flight_price(destination_list:list):
                 pass
 
 get_flight_price(get_iata_code())
-#flight.search("GIG")
